@@ -1,5 +1,5 @@
 
-
+//React.Component вместо Component после import React, {Component} from 'react';
 class App extends React.Component {
 
     render() {
@@ -10,3 +10,6 @@ class App extends React.Component {
         );
     }
 }
+
+
+//не нужен "export default App;"

@@ -13,16 +13,23 @@
     <script src="react/react-dom.development.js"></script>
     <script src="jquery/jquery-3.3.1.js"></script>
     <script src="jquery/jquery-ui-1.12.1/jquery-ui.js"></script>
-    <link rel="stylesheet" href="App/App.css">
+
 
 
 </head>
 <body>
     <div id="root"></div>
 
+    <!--Файлы с компонентами нужно подключать перед тем как использовать-->
+    <!--index использует <App/>-->
+    <!--<App/> использует <NavBar/>-->
+
+    <!--У JSX скриптов type="text/babel"-->
     <script src="App/NavBar/NavBar.js" type="text/babel"></script>
     <script src="App/App.js" type="text/babel"></script>
     <script src="index.js" type="text/babel"></script>
+    <!--Все стили тоже подключаются ручками-->
+    <link rel="stylesheet" href="App/App.css">
     <link rel="stylesheet" href="App/NavBar/NavBar.css">
 </body>
 </html>
