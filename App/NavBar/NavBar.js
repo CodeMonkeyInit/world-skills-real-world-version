@@ -1,8 +1,9 @@
+
 class NavBar extends React.Component {
 
     navbarElements = [
-        {key: "Дом", value: null},
-        {key: "Макросы", value: null}
+        {key: "Дом", value: <Home/>},
+        {key: "Макросы", value: <Macros/>}
     ];
 
     state = {
